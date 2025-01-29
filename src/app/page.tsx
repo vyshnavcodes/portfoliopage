@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { EnvelopeIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -49,9 +50,11 @@ export default function Home() {
         >
           <div className="w-40 h-40 rounded-full mx-auto mb-8 overflow-hidden bg-gradient-to-br from-blue-600 to-purple-600 p-1">
             <div className="w-full h-full rounded-full overflow-hidden">
-              <img
+              <Image 
                 src="/1734946926837.jpg"
                 alt="Profile"
+                width={160}
+                height={160}
                 className="w-full h-full object-cover object-center"
               />
             </div>
@@ -75,7 +78,7 @@ export default function Home() {
               I produce editorial content that gets brands ranked on Google.
               <br />
               <span className="text-gray-400 text-base">
-                I'm a full-time product marketer who takes freelance gigs for the love of writing 😊
+                I&apos;m a full-time product marketer who takes freelance gigs for the love of writing 😊
               </span>
             </p>
           </motion.div>
@@ -216,7 +219,7 @@ export default function Home() {
       <section className="section-padding bg-black/30">
         <div className="max-w-xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-4 gradient-text">Get in Touch</h2>
-          <p className="text-center text-gray-400 mb-12">Drop in your requirements briefly, I'll get back to you as soon as I can 😊</p>
+          <p className="text-center text-gray-400 mb-12">drop in your requirements briefly, i&apos;ll get back to you as soon as i can 😊</p>
           
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
