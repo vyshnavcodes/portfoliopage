@@ -55,6 +55,8 @@ export default function Home() {
                 alt="Profile"
                 width={160}
                 height={160}
+                priority
+                unoptimized
                 className="w-full h-full object-cover object-center"
               />
             </div>
