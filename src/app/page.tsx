@@ -51,12 +51,12 @@ export default function Home() {
           <div className="w-40 h-40 rounded-full mx-auto mb-8 overflow-hidden bg-gradient-to-br from-blue-600 to-purple-600 p-1">
             <div className="w-full h-full rounded-full overflow-hidden">
               <Image 
-                src="/1734946926837.jpg"
+                src="/www.ignytlabs.com/1734946926837.jpg"
                 alt="Profile"
                 width={160}
                 height={160}
                 priority
-                unoptimized
+                loading="eager"
                 className="w-full h-full object-cover object-center"
               />
             </div>
